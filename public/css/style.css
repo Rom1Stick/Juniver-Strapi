@@ -1,0 +1,97 @@
+/* Variables et styles globaux */
+:root {
+  --primary-color: #007BFF;
+  --secondary-color: #6C757D;
+  --background-color: #F8F9FA;
+  --text-color: #343A40;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+/* Header */
+header {
+  background-color: var(--primary-color);
+  padding: 10px 20px;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+#hero {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+#hero h1 {
+  font-size: 2.5rem;
+}
+
+#hero p {
+  font-size: 1.2rem;
+}
+
+/* Features Section */
+#features {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+#features div {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: var(--primary-color);
+  color: white;
+}
+
+#features div:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  background-color: var(--primary-color);
+  color: white;
+}
+
+@media (max-width: 768px) {
+  #features {
+      flex-direction: column;
+  }
+
+  header nav ul {
+      flex-direction: column;
+      gap: 10px;
+  }
+}
+

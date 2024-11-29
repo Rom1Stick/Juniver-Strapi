@@ -1,0 +1,25 @@
+{
+    "pages": [
+        {
+            "id": 1,
+            "title": "À propos",
+            "content": "Bienvenue sur Juniver Santé, votre partenaire pour un mode de vie sain. Nous sommes dédiés à la promotion du bien-être."
+        }
+    ],
+    "blogs": [
+        {
+            "id": 1,
+            "title": "Comment adopter un mode de vie sain",
+            "date": "2024-01-01",
+            "content": "Découvrez des astuces simples pour améliorer votre quotidien...",
+            "image": "images/healthy-lifestyle.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Les meilleurs aliments pour votre santé",
+            "date": "2024-01-05",
+            "content": "Explorez notre sélection des meilleurs aliments pour rester en bonne santé.",
+            "image": "images/healthy-food.jpg"
+        }
+    ]
+}
